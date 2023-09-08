@@ -1,5 +1,5 @@
 # cps493_classwork
-All work that is done in class
+All work that is done in class!
 
 I am majoring in computer science. I have gained computer experience whether it was through school or past internships/job opportunities. The courses that I have taken were CS1 and CS2 and introductory elective courses like Visual Programming and Web Page Design. In past jobs or internships, I have worked on some projects and programs using the following languages: Java, Python, C++, HTML, CSS, and Javascript. For example, I worked on a responsive website using HTML, CSS, Bootstrap, and Javascript. I also collaborated on a project that essentially was a calculator that used Python. I like to say that I have a sufficient amount of computer experience working with several languages. 
 
