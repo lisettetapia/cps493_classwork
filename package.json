@@ -1,0 +1,11 @@
+{
+    "name": "cps493_classwork",
+    "version": "1.0.0",
+    "description": "",
+    "author": "",
+    "license": "ISC",
+
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+    }
+}
