@@ -1,6 +1,6 @@
 const http = require('http');
 
-function handler(req, res) {    
+function handler(req, res) {
     res.end('Hello World\n');
 }
 
