@@ -1,9 +1,12 @@
 import { reactive } from "vue";
-import { getUserByEmail } from "./users";
+import { getUserByEmail, type User } from "./users";
 
 const session = reactive({
-    user: null,
-});
+    user: null as User | null,
+    redirectUrl: null as string | null,
+})
+
+
 
 export function getSession() {
     return session;
@@ -21,4 +24,3 @@ export function login(email: string, password: string): User | null {
 export function logout() {
     session.user = null;
 }
-
