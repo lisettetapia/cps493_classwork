@@ -28,12 +28,12 @@ const router = createRouter({
 });
 
 function requireLogin(to: RouteLocationNormalized, from: RouteLocationNormalized, next: NavigationGuardNext) {
-
+  
   const session = getSession();
-  if (!session.user) {
+  if(!session.user){
     session.redirectUrl = to.fullPath;
     next('/login');
-  } else {
+  }else{
     next();
   }
 }
